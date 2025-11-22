@@ -7,7 +7,7 @@
 
 ## AIM
             
-**DATE:**  
+ 
          
 ---
 
@@ -78,18 +78,18 @@ PROCEDURE - (LPF):
 
 | S.No | Frequency (Hz) | Output Voltage (V) | Gain = 20 log (Vo/Vi) (dB) |
 |------|----------------|--------------------|-----------------------------|
-| 1    |                |                    |                             |
-| 2    |                |                    |                             |
-| 3    |                |                    |                             |
-| 4    |                |                    |                             |
-| 5    |                |                    |                             |
-| 6    |                |                    |                             |
-| 7    |                |                    |                             |
-| 8    |                |                    |                             |
-| 9    |                |                    |                             |
-| 10   |                |                    |                             |
-| 11   |                |                    |                             |
-| 12   |                |                    |                             |
+| 1    |   300             |     1.6               |           4.08                  |
+| 2    |   400            |      1.6              |             4.08                |
+| 3    |   500              |    1.6                |           4.08                  |
+| 4    |   600             |     1.6               |            4.08                 |
+| 5    |   700             |     1.6               |            4.08                 |
+| 6    |   900             |     1.6               |            4.08                 |
+| 7    |   1             |       1.5             |              3.52               |
+| 8    |   1.5             |     1.2               |            1.58                 |
+| 9    |   2             |       600             |              -4.4               |
+| 10   |   2.5             |    380                |             -8.4                |
+| 11   |   3             |      260              |               -11.70              |
+
 		
 
 ---
@@ -97,7 +97,14 @@ PROCEDURE - (LPF):
 ## OUT PUT WAVEFORM AND DISCUSSION 
 
 ---
+<img width="1280" height="1009" alt="image" src="https://github.com/user-attachments/assets/1401159d-9bc8-4d92-9527-970b5a75c811" />
 
+<img width="950" height="662" alt="ss lps cir" src="https://github.com/user-attachments/assets/f04342f0-0f6a-4b43-9254-c3b93fab5174" />
+
+<img width="1915" height="459" alt="ss lpf op" src="https://github.com/user-attachments/assets/cc78c38f-8585-416a-a37f-660a023fe126" />
+
+ 
+ 
  ## 6 B HIGH PASS FILTER
 
 ---
@@ -162,22 +169,31 @@ PROCEDURE - ( HPF):
 		
 | S.No | Frequency (Hz) | Output Voltage (V) | Gain = 20 log (Vo/Vi) (dB) |
 |------|----------------|--------------------|-----------------------------|
-| 1    |                |                    |                             |
-| 2    |                |                    |                             |
-| 3    |                |                    |                             |
-| 4    |                |                    |                             |
-| 5    |                |                    |                             |
-| 6    |                |                    |                             |
-| 7    |                |                    |                             |
-| 8    |                |                    |                             |
-| 9    |                |                    |                             |
-| 10   |                |                    |                             |
-| 11   |                |                    |                             |
-| 12   |                |                    |                             |
+| 1    |    300hz            |       140             |          -17.07                   |
+| 2    |   400             |         220           |             -13.15                |
+| 3    |   500             |         260           |             -11.70                |
+| 4    |   600             |         320           |             -9.8                |
+| 5    |    700            |         420           |             -7.5                |
+| 6    |    800            |        540            |             -5.3                |
+| 7    |    900            |       600             |             -4.4                |
+| 8    |   1k             |        740            |               -2.6              |
+| 9    |   1.2             |       900             |              -0.91               |
+| 10   |  1.3              |       1             |                0             |
+| 11   |   1.4             |      1.1              |              0               |
+| 12   |   1.5             |       1.1             |             0.82                |
 
 ---
 
 ## OUT PUT WAVEFORM AND DISCUSSION 
+
+<img width="1280" height="1008" alt="image" src="https://github.com/user-attachments/assets/a077737d-5f26-4d1d-8d07-64d7c5cd1c8b" />
+
+<img width="1129" height="513" alt="ss hpf cir 2 " src="https://github.com/user-attachments/assets/d7424f44-85cc-411f-8ebc-d0a29db972a4" />
+
+<img width="1914" height="475" alt="ss hpf op 2 " src="https://github.com/user-attachments/assets/8869a2cb-5e7d-4220-8190-35961d490ad3" />
+
+
+
 
 ---
 
@@ -247,22 +263,30 @@ PROCEDURE:BAND PASS FILTER
 		
 | S.No | Frequency (Hz) | Output Voltage (V) | Gain = 20 log (Vo/Vi) (dB) |
 |------|----------------|--------------------|-----------------------------|
-| 1    |                |                    |                             |
-| 2    |                |                    |                             |
-| 3    |                |                    |                             |
-| 4    |                |                    |                             |
-| 5    |                |                    |                             |
-| 6    |                |                    |                             |
-| 7    |                |                    |                             |
-| 8    |                |                    |                             |
-| 9    |                |                    |                             |
-| 10   |                |                    |                             |
-| 11   |                |                    |                             |
-| 12   |                |                    |                             |
+| 1    |        40        |     0.1               |          -20                   |
+| 2    |       60         |     1               |             0                |
+| 3    |       80         |     1.2               |           1.5                  |
+| 4    |      100          |     1.4               |          2.9                   |
+| 5    |     125           |    1.6                |          4.08                   |
+| 6    |     150           |     1.8               |          5.1                   |
+| 7    |     175           |     2               |            6                 |
+| 8    |     200           |     2.4               |         7.6                    |
+| 9    |     250           |     2.4               |          7.6                   |
+| 10   |    300            |     2.4               |           7.6                  |
+| 11   |    400            |     2.4               |           7.6                  |
+| 12   |    450            |     2.4               |           7.6                  |
 
 ---
 
 ## OUT PUT WAVEFORM AND DISCUSSION 
+
+<img width="1280" height="997" alt="image" src="https://github.com/user-attachments/assets/6d99ad53-72da-459e-9468-fd66d234b97e" />
+
+<img width="948" height="515" alt="ss bps cir " src="https://github.com/user-attachments/assets/e7eec0a2-9d3e-43dd-905f-223ced0c5874" />
+
+<img width="1893" height="448" alt="ss bpf op" src="https://github.com/user-attachments/assets/b9501192-ae95-45eb-830e-81955fd2aba4" />
+
+
 
 ---
 ##RESULT:
